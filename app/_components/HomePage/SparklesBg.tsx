@@ -20,7 +20,9 @@ export function SparklesBg() {
       {/* <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
         Build great products
       </h1> */}
-      <h1 className="text-4xl text-white text-center font-bold">Hello</h1>
+      <h1 className="text-4xl font-unbounded text-white text-center font-light">
+        Hello
+      </h1>
     </div>
   );
 }
