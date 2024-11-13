@@ -90,7 +90,7 @@ const Logo = () => {
     <Link href="/">
       <h1 className="font-unbounded text-black dark:text-white font-medium text-2xl cursor-none">
         n
-        <span className="ml-0.5 text-4xl font-bold text-white dark:text-black font-outline-2 font-circular hover:text-purple-500 hover:dark:text-purple-500 duration-300">
+        <span className="ml-0.5 text-4xl font-bold text-white dark:text-black font-outline-2 font-circular hover:text-purple-500 hover:dark:text-purple-700 duration-300">
           X
         </span>
         tribe
