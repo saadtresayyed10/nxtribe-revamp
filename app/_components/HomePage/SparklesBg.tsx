@@ -13,7 +13,7 @@ export function HeroSection() {
           maxSize={1.4}
           particleDensity={100}
           className="w-full h-full"
-          particleColor="#FFFFFF"
+          particleColor="#A83DF1"
         />
       </div>
       <div className="flex justify-center items-center flex-col lg:gap-y-8 text-white font-unbounded font-medium capitalize">
@@ -38,7 +38,7 @@ export function HeroSection() {
               solutions that drive growth and success for our clients.
             </p>
           </div>
-          <div className="flex justify-center items-center lg:gap-x-16 z-50">
+          <div className="flex justify-center items-center lg:gap-x-12 z-50 lg:mt-40">
             <button className="lg:px-10 py-2 bg-purple-600 text-black lg:text-base rounded-md">
               Why Us
             </button>
