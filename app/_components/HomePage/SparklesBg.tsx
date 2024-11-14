@@ -28,14 +28,15 @@ export function HeroSection() {
         <div className="flex self-start items-center gap-x-10 flex-row">
           <div className="lg:px-16 font-circular lg:text-lg text-muted-foreground lg:mt-6 w-[60%]">
             <p>
-              nXtribe is a premier provider of tailored HR, Training, and
-              Digital Marketing Success solutions, empowering diverse businesses
-              to excel. Backed by a team of seasoned professionals, we deliver
-              exceptional services with unmatched Speed, Clarity, and
-              Confidence. Our strategic alliances with industry leaders and
-              dedication to innovation position us at the forefront of the
-              market, enabling us to craft cutting-edge, results-oriented
-              solutions that drive growth and success for our clients.
+              <span className="lowercase">n</span>Xtribe is a premier provider
+              of tailored HR, Training, and Digital Marketing Success solutions,
+              empowering diverse businesses to excel. Backed by a team of
+              seasoned professionals, we deliver exceptional services with
+              unmatched Speed, Clarity, and Confidence. Our strategic alliances
+              with industry leaders and dedication to innovation position us at
+              the forefront of the market, enabling us to craft cutting-edge,
+              results-oriented solutions that drive growth and success for our
+              clients.
             </p>
           </div>
           <div className="flex justify-center items-center lg:gap-x-12 absolute right-10 lg:mt-40">
