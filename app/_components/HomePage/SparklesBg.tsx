@@ -41,7 +41,7 @@ export function HeroSection() {
           </div>
           <div className="flex justify-center items-center lg:gap-x-12 absolute right-10 lg:mt-40">
             <button className="lg:px-10 py-2 bg-purple-600 text-black lg:text-base rounded-md">
-              Why Us
+              Blog
             </button>
             <button className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground lg:text-base rounded-md">
               Need Help
