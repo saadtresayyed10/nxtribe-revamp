@@ -38,7 +38,7 @@ export function HeroSection() {
               solutions that drive growth and success for our clients.
             </p>
           </div>
-          <div className="flex justify-center items-center lg:gap-x-12 z-50 lg:mt-40">
+          <div className="flex justify-center items-center lg:gap-x-12 absolute right-10 lg:mt-40">
             <button className="lg:px-10 py-2 bg-purple-600 text-black lg:text-base rounded-md">
               Why Us
             </button>

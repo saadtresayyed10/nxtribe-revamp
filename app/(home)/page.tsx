@@ -7,9 +7,14 @@ import { TimeLine } from "../_components/HomePage/TimeLine";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col gap-y-10 justify-center items-center w-full min-h-screen">
+    <div className="flex flex-col justify-center items-center w-full min-h-screen">
       <HeroSection />
-      <Services />
+      <div>
+        <h1 className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl font-semibold text-center capitalize">
+          Services we offer
+        </h1>
+        <Services />
+      </div>
       <CarouselImages />
       <Flipwords />
       <TimeLine />
