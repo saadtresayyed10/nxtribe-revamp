@@ -1,42 +1,52 @@
-import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+"use client";
+
+import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 export function Testimonials() {
-  const testimonials = [
-    {
-      quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
-      src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
-      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
-      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-  ];
-  return <AnimatedTestimonials testimonials={testimonials} />;
+  return (
+    <section>
+      <h1 className="lg:my-6 dark:text-white font-unbounded lg:text-4xl font-semibold text-center capitalize">
+        Testimonials
+      </h1>
+      <div className="max-w-5xl mx-auto px-8">
+        <HoverEffect items={projects} />
+      </div>
+    </section>
+  );
 }
+export const projects = [
+  {
+    title: "Glen",
+    description:
+      "I was particularly impressed by Faisal's ability to handle even the toughest clients—effortlessly.",
+    link: "/",
+  },
+  {
+    title: "Malini",
+    description:
+      "Faisal comes across as an extremely focused calm, balanced and knowledgeable professional. Indeed, it was a pleasure having him in my team and working with him very closely on couple of global projects. Faisal comes with strong Business acumen and is passionate about people processes and capability building.",
+    link: "/",
+  },
+  {
+    title: "Atul",
+    description:
+      "He is a great change leader in an organisation and impact people and culture in a positive manner.",
+    link: "/",
+  },
+  {
+    title: "Deekshant",
+    description: "Faisal is an excellent testament of a leader and a coach.",
+    link: "/",
+  },
+  {
+    title: "Gajanand",
+    description:
+      "Faisal has outstanding capability to develop people and train them.",
+    link: "/",
+  },
+  {
+    title: "Saad",
+    description: "Faisal Sir is such an excellent mentor.",
+    link: "/",
+  },
+];

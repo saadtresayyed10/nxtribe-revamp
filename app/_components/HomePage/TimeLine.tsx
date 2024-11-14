@@ -1,4 +1,3 @@
-import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
 export function TimeLine() {
@@ -7,10 +6,10 @@ export function TimeLine() {
       title: "Join",
       content: (
         <div className="font-circular">
-          <p className="text-neutral-800 dark:text-neutral-200 lg:text-base font-normal mb-8 capitalize">
+          <p className="text-neutral-800 dark:text-neutral-200 lg:text-base font-normal mb-8">
             We tailor our services to meet the specific needs of each client,
-            ensuring personalized and effective solutions. We Provide
-            Scalability & Flexibility of Solutions.
+            ensuring personalized and effective solutions. We provide
+            scalability & flexibility of solutions.
           </p>
         </div>
       ),
@@ -31,7 +30,7 @@ export function TimeLine() {
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-base font-normal mb-8">
-            Nxtribe Experts integrate the latest tools and platforms to deliver
+            nXtribe experts integrate the latest tools and platforms to deliver
             state-of-the-art solutions for our clients.
           </p>
         </div>
@@ -42,8 +41,8 @@ export function TimeLine() {
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-base font-normal mb-8">
-            Nxtribe maintains rigorous quality standards to meet or exceed
-            benchmarks; coupled with commitment to Innovation.
+            nXtribe maintains rigorous quality standards to meet or exceed
+            benchmarks; coupled with commitment to innovation.
           </p>
         </div>
       ),
@@ -53,7 +52,7 @@ export function TimeLine() {
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-base font-normal mb-8">
-            At nxtribe, we prioritize the needs and goals of our clients above
+            At nXtribe, we prioritize the needs and goals of our clients above
             all else, striving to exceed expectations and build lasting
             partnerships based on trust, transparency, and mutual success..
           </p>
