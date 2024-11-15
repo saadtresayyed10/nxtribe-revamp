@@ -1,10 +1,10 @@
 const GoalsAndValues = () => {
   return (
     <div className="flex justify-center items-center lg:my-8 flex-col lg:gap-y-6">
-      <h1 className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl font-semibold text-center capitalize">
+      <h1 className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
         Our Goals and Values
       </h1>
-      <div className="lg:flex justify-center items-center lg:gap-x-16 lg:flex-row lg:p-10 font-circular text-muted-foreground lg:text-lg">
+      <div className="lg:flex justify-center items-center lg:gap-x-16 gap-y-10 lg:flex-row lg:p-10 p-8 font-circular text-muted-foreground lg:text-lg text-base">
         <p>
           Our{" "}
           <span className="text-purple-700 dark:text-purple-500">
@@ -30,6 +30,7 @@ const GoalsAndValues = () => {
           dedicated to elevating your business impact and achieving outstanding
           results.
         </p>
+        <br />
         <p>
           <span className="text-purple-700 dark:text-purple-500">Speed</span>:
           nXtribe emphasizes rapid response times and superior project
