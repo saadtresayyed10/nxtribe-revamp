@@ -50,7 +50,7 @@ export const HoverEffect = ({
             <CardTitle className="text-purple-700 dark:text-purple-500 uppercase">
               {item.title}
             </CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            <CardDescription>&quot;{item.description}&quot;</CardDescription>
           </Card>
         </section>
       ))}

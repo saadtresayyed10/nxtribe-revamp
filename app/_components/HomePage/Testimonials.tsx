@@ -5,7 +5,7 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 export function Testimonials() {
   return (
     <section>
-      <h1 className="lg:my-6 dark:text-white font-unbounded lg:text-4xl font-semibold text-center capitalize">
+      <h1 className="lg:my-6 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
         Testimonials
       </h1>
       <div className="max-w-5xl mx-auto px-8">

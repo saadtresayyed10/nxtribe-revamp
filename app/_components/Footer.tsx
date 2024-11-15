@@ -80,12 +80,12 @@ export function Footer() {
           <span className="dark:text-purple-500 text-purple-700">Mail</span>:
           info@nxtribe.com
         </h4>
-        <h4>
+        {/* <h4>
           <span className="dark:text-purple-500 text-purple-700">
             Contact No
           </span>
           : (+91) 911-281-4584
-        </h4>
+        </h4> */}
         <h4>
           <span className="dark:text-purple-500 text-purple-700">Office</span>:
           Office No-1, Gagan Cefiro Commerical Bldg, Pisoli, Pune
