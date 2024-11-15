@@ -1,13 +1,36 @@
 "use client";
 
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 export function Testimonials() {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <section>
-      <h1 className="lg:my-6 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
+    <section ref={ref}>
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        animate={controls}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 40 },
+        }}
+        transition={{ duration: 0.4, ease: "easeOut", delay: 0.6 }}
+        className="lg:my-6 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize"
+      >
         Testimonials
-      </h1>
+      </motion.h1>
       <div className="max-w-5xl mx-auto px-8">
         <HoverEffect items={projects} />
       </div>

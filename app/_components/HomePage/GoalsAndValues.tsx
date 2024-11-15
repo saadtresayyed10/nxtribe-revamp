@@ -1,11 +1,48 @@
+"use client";
+
+import { useAnimation, motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+
 const GoalsAndValues = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="flex justify-center items-center lg:my-8 flex-col lg:gap-y-6">
-      <h1 className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
+    <div
+      ref={ref}
+      className="flex justify-center items-center lg:my-8 flex-col lg:gap-y-6"
+    >
+      <motion.h1
+        initial={{ opacity: 0, y: 10 }}
+        animate={controls}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 10 },
+        }}
+        transition={{ duration: 0.4, ease: "backOut", delay: 0.6 }}
+        className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize"
+      >
         Our Goals and Values
-      </h1>
+      </motion.h1>
       <div className="lg:flex justify-center items-center lg:gap-x-16 gap-y-10 lg:flex-row lg:p-10 p-8 font-circular text-muted-foreground lg:text-lg text-base">
-        <p>
+        <motion.p
+          initial={{ opacity: 0, x: 20 }}
+          animate={controls}
+          variants={{
+            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, x: 20 },
+          }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
+        >
           Our{" "}
           <span className="text-purple-700 dark:text-purple-500">
             main objective
@@ -29,9 +66,17 @@ const GoalsAndValues = () => {
           your competitive edge, and ensure long-term success. Our expertise is
           dedicated to elevating your business impact and achieving outstanding
           results.
-        </p>
+        </motion.p>
         <br />
-        <p>
+        <motion.p
+          initial={{ opacity: 0, x: -20 }}
+          animate={controls}
+          variants={{
+            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, x: -20 },
+          }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
+        >
           <span className="text-purple-700 dark:text-purple-500">Speed</span>:
           nXtribe emphasizes rapid response times and superior project
           execution, ensuring clients maintain a competitive edge through
@@ -46,7 +91,7 @@ const GoalsAndValues = () => {
           : Rooted in an unwavering belief in the strength of our team, nXtribe
           imparts trust and confidence to every client and project, delivering
           assurance and excellence.
-        </p>
+        </motion.p>
       </div>
     </div>
   );

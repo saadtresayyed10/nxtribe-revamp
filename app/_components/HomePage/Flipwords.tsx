@@ -1,5 +1,9 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import { FlipWords } from "@/components/ui/flip-words";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export function Flipwords() {
   const words = [
@@ -9,9 +13,32 @@ export function Flipwords() {
     "A Tribe with Collaborative Efforts.",
   ];
 
+  const controls = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
-    <div className="my-10 lg:mr-32 flex justify-center items-center px-4">
-      <div className="font-circular lg:text-3xl text-2xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+    <div
+      ref={ref}
+      className="my-10 lg:mr-32 flex justify-center items-center px-4"
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={controls}
+        variants={{
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 40 },
+        }}
+        transition={{ duration: 0.4, ease: "easeOut", delay: 0.6 }}
+        className="font-circular lg:text-3xl text-2xl mx-auto font-normal text-neutral-600 dark:text-neutral-400"
+      >
         At{" "}
         <span className="font-semibold text-purple-700 dark:text-purple-500 underline underline-offset-4">
           nXtribe
@@ -23,7 +50,7 @@ export function Flipwords() {
         />
         <br />
         Welcome to our tribe.
-      </div>
+      </motion.div>
     </div>
   );
 }
