@@ -1,3 +1,4 @@
+import { Footer } from "../_components/Footer";
 import { NavbarLG } from "../_components/HomePage/Navbar";
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
@@ -7,6 +8,9 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
         <NavbarLG />
       </header>
       <main>{children}</main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
