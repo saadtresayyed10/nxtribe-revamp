@@ -7,14 +7,10 @@ import {
   IconBrandYoutube,
   IconBrandInstagram,
   IconBrandX,
-  IconExchange,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
   IconBrandFacebook,
   IconBrandSpotify,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function Footer() {
   const links = [
@@ -71,7 +67,7 @@ export function Footer() {
     },
   ];
   return (
-    <div className="flex items-center justify-center flex-col lg:gap-y-3 h-[12rem] w-full lg:mt-20">
+    <div className="lg:flex hidden items-center justify-center flex-col lg:gap-y-3 h-[12rem] w-full lg:mt-20">
       <FloatingDock mobileClassName="translate-y-20" items={links} />
       <div className="flex justify-center items-center flex-col lg:gap-y-2 font-circular text-xs font-light text-muted-foreground">
         <h4>

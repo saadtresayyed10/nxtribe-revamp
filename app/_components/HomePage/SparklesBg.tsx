@@ -4,7 +4,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export function HeroSection() {
   return (
-    <div className="lg:h-[32rem] h-[15rem] relative w-full bg-black flex flex-col items-center justify-center gap-y-6 overflow-hidden">
+    <div className="lg:h-[32rem] h-[55rem] relative w-full bg-black flex flex-col items-center justify-center gap-y-6 overflow-hidden">
       <div className="w-full absolute inset-0">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -16,8 +16,8 @@ export function HeroSection() {
           particleColor="#A83DF1"
         />
       </div>
-      <div className="flex justify-center items-center flex-col lg:gap-y-8 text-white font-unbounded font-medium capitalize">
-        <div className="self-start pl-4 lg:pl-16 flex flex-col lg:gap-y-3">
+      <div className="flex justify-center items-center flex-col gap-y-8 text-white font-unbounded font-medium capitalize">
+        <div className="self-start pl-4 lg:pl-16 flex flex-col gap-y-3">
           <h1 className="lg:text-4xl text-2xl">
             Innovating Your Path to Digital Success.
           </h1>
@@ -26,7 +26,7 @@ export function HeroSection() {
           </h1>
         </div>
         <div className="flex self-start items-center gap-x-10 flex-row">
-          <div className="lg:px-16 font-circular lg:text-lg text-muted-foreground lg:mt-6 w-[60%]">
+          <div className="lg:px-16 px-8 font-circular lg:text-lg text-base text-muted-foreground lg:mt-6 mt-3 lg:w-[60%]">
             <p>
               <span className="lowercase">n</span>Xtribe is a premier provider
               of tailored HR, Training, and Digital Marketing Success solutions,
@@ -39,11 +39,11 @@ export function HeroSection() {
               clients.
             </p>
           </div>
-          <div className="flex justify-center items-center lg:gap-x-12 absolute right-10 lg:mt-40">
-            <button className="lg:px-10 py-2 bg-purple-600 text-black lg:text-base rounded-md">
+          <div className="flex justify-center items-center lg:flex-row flex-col gap-y-6 lg:gap-x-12 absolute lg:right-10 right-24 lg:mt-40 mt-[480px]">
+            <button className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min">
               Blog
             </button>
-            <button className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground lg:text-base rounded-md">
+            <button className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md w-full">
               Need Help
             </button>
           </div>
