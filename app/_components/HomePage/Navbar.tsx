@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import {
   HoveredLink,
@@ -10,18 +11,29 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { BorderButton } from "./BorderButton";
 import { ThemeToggle } from "../ThemeToggle";
+import { motion } from "framer-motion";
 
 export function NavbarLG() {
   return (
     <div className="relative w-full lg:flex hidden items-center justify-between px-6 py-2.5 bg-white dark:bg-black">
-      <div className="flex justify-center items-center text-center flex-col gap-y-8">
+      <motion.div
+        initial={{ opacity: 0, x: -10 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.4, ease: "easeOut", delay: 0.4 }}
+        className="flex justify-center items-center text-center flex-col gap-y-8"
+      >
         <Logo />
-      </div>
+      </motion.div>
       <Navbar className="z-50" />
-      <div className="flex justify-center items-center gap-x-6">
+      <motion.div
+        initial={{ opacity: 0, x: 10 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.4, ease: "easeOut", delay: 0.4 }}
+        className="flex justify-center items-center gap-x-4"
+      >
         <ThemeToggle />
         <BorderButton buttonName="Contact" />
-      </div>
+      </motion.div>
     </div>
   );
 }
@@ -29,59 +41,66 @@ export function NavbarLG() {
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
-    <div className={cn("font-circular", className)}>
+    <motion.div
+      initial={{ opacity: 0, y: -10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: "easeOut", delay: 0.6 }}
+      className={cn("font-circular", className)}
+    >
       <Menu setActive={setActive}>
         <div className="flex justify-center items-center gap-x-10">
           <MenuItem setActive={setActive} active={active} item="About">
             <div className="flex flex-col space-y-4 text-sm p-6">
-              <HoveredLink href="/web-dev">Web Development</HoveredLink>
-              <HoveredLink href="/interface-design">
-                Interface Design
-              </HoveredLink>
-              <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-              <HoveredLink href="/branding">Branding</HoveredLink>
+              <HoveredLink href="/about/our-purpose">Our Purpose</HoveredLink>
+              <HoveredLink href="/about/why-us">Why Us?</HoveredLink>
+              <HoveredLink href="/about/blog">Blog</HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="What We Offer">
             <div className="text-sm grid grid-cols-2 gap-10 p-10">
               <ProductItem
-                title="Algochurn"
-                href="https://algochurn.com"
+                title="HR & CHRO"
+                href="/whatweoffer/hr"
                 src="https://assets.aceternity.com/demos/algochurn.webp"
-                description="Prepare for tech interviews like never before."
+                description="Strategic HR solutions for workforce transformation."
               />
               <ProductItem
-                title="Tailwind Master Kit"
-                href="https://tailwindmasterkit.com"
+                title="Training & Coaching"
+                href="/whatweoffer/training"
                 src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-                description="Production ready Tailwind css components for your next project"
+                description="Professional growth for individuals and teams."
               />
               <ProductItem
-                title="Moonbeam"
-                href="https://gomoonbeam.com"
+                title="Digital Marketing"
+                href="/whatweoffer/digital-marketing"
                 src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-                description="Never write from scratch again. Go from idea to blog in minutes."
+                description="Innovative campaigns maximizing online brand reach."
               />
               <ProductItem
-                title="Rogue"
-                href="https://userogue.com"
+                title="Employee Wellness"
+                href="/whatweoffer/employee-wellness"
                 src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-                description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+                description="Holistic programs enhancing employee health, productivity."
               />
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Workshop">
             <div className="flex flex-col space-y-4 text-sm p-6">
-              <HoveredLink href="/hobby">Hobby</HoveredLink>
-              <HoveredLink href="/individual">Individual</HoveredLink>
-              <HoveredLink href="/team">Team</HoveredLink>
-              <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+              <HoveredLink href="/workshop/talent">
+                Talent Acquisition
+              </HoveredLink>
+              <HoveredLink href="/workshop/recruitment">
+                Recruitment
+              </HoveredLink>
+              <HoveredLink href="/workshop/organizations">
+                Organizations & Development
+              </HoveredLink>
             </div>
           </MenuItem>
           <Link href="/media">Media</Link>
         </div>
       </Menu>
-    </div>
+    </motion.div>
   );
 }
 
