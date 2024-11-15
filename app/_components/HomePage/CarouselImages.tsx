@@ -9,9 +9,9 @@ export function CarouselImages() {
 
   return (
     <div className="w-full h-full py-20">
-      <h1 className="lg:mt-10 lg:mb-4 dark:text-white text-black font-unbounded lg:text-4xl font-semibold capitalize lg:ml-10">
+      <h1 className="lg:mt-10 lg:mb-4 dark:text-white text-black font-unbounded lg:text-4xl text-2xl font-semibold capitalize lg:ml-10 ml-6">
         Actually Why <span className="lowercase">n</span>
-        <span className="text-purple-700 dark:text-purple-500 lg:text-5xl">
+        <span className="text-purple-700 dark:text-purple-500 lg:text-5xl text-3xl">
           X
         </span>
         <span className="lowercase">tribe</span>?
