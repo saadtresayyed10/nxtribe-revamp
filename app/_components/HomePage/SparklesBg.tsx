@@ -19,23 +19,31 @@ export function HeroSection() {
       <div className="flex justify-center items-center flex-col gap-y-8 text-white font-unbounded font-medium capitalize">
         <div className="self-start pl-4 lg:pl-16 flex flex-col gap-y-3">
           <motion.h1
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: "backOut", delay: 0.8 }}
             className="lg:text-4xl text-2xl"
           >
             Innovating Your Path to Digital Success.
           </motion.h1>
           <motion.h1
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "backOut", delay: 0.8 }}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "backOut", delay: 1.2 }}
+            className="lg:text-4xl text-2xl"
+          >
+            Fueling Your Vision in the Digital Era.
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.0, ease: "backOut", delay: 1.4 }}
             className="lg:text-4xl text-2xl"
           >
             Fueling Your Vision in the Digital Era.
           </motion.h1>
         </div>
-        <div className="flex self-start items-center gap-x-10 flex-row">
+        <div className="flex self-start items-center  gap-x-10 flex-row">
           <div className="lg:px-16 px-8 font-circular lg:text-lg text-base text-muted-foreground lg:mt-6 mt-3 lg:w-[60%]">
             <motion.p
               initial={{ opacity: 0, y: 10 }}
