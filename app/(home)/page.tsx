@@ -1,6 +1,7 @@
 import { CarouselImages } from "../_components/HomePage/CarouselImages";
 import { Flipwords } from "../_components/HomePage/Flipwords";
 import GoalsAndValues from "../_components/HomePage/GoalsAndValues";
+import { InfiniteLogoMarquee } from "../_components/HomePage/InfiniteLogoMaquee";
 import { Services } from "../_components/HomePage/Services";
 import { HeroSection } from "../_components/HomePage/SparklesBg";
 import { Testimonials } from "../_components/HomePage/Testimonials";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <Flipwords />
       <GoalsAndValues />
+      <InfiniteLogoMarquee />
       <CarouselImages />
       <div>
         <h1 className="lg:my-10 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
