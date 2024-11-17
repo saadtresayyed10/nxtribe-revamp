@@ -11,9 +11,9 @@ const HomePage = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full min-h-screen overflow-x-hidden">
       <HeroSection />
-      <Flipwords />
-      <GoalsAndValues />
       <InfiniteLogoMarquee />
+      <GoalsAndValues />
+      <Flipwords />
       <CarouselImages />
       <div>
         <h1 className="lg:my-10 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">

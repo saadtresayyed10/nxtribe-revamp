@@ -27,13 +27,13 @@ export function InfiniteLogoMarquee() {
   return (
     <div className="relative flex h-full w-full flex-col items-center justify-center gap-4 overflow-hidden bg-white dark:bg-white lg:p-10 p-6 mt-10">
       <div className="flex flex-row gap-4 overflow-hidden">
-        <Marquee className="w-full justify-center overflow-hidden [--duration:20s] [--gap:3rem]">
+        <Marquee className="w-full justify-center overflow-hidden [--duration:20s] lg:[--gap:4rem] [--gap:3rem]">
           {logos.map((data, idx) => (
             <img
               key={idx}
               src={data.img}
               alt={data.name}
-              className="mx-auto h-24 w-24 object-contain cursor-pointer rounded-xl  transition-all duration-300"
+              className="mx-auto h-32 w-32 object-contain cursor-pointer rounded-xl  transition-all duration-300"
             />
           ))}
         </Marquee>

@@ -27,7 +27,7 @@ export function Flipwords() {
   return (
     <div
       ref={ref}
-      className="my-10 lg:mr-32 flex justify-center items-center px-4"
+      className="my-10 lg:mr-32 lg:flex hidden justify-center items-center px-4"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
