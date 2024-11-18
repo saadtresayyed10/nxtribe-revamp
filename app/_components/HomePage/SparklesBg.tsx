@@ -24,7 +24,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, ease: "backOut", delay: 0.8 }}
             className="lg:text-4xl text-2xl"
           >
-            Innovating Your Path to Digital Success.
+            Unlocking Potential, Inspiring Growth.
           </motion.h1>
           <motion.h1
             initial={{ opacity: 0, x: 100 }}
@@ -32,7 +32,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, ease: "backOut", delay: 1.2 }}
             className="lg:text-4xl text-2xl"
           >
-            Fueling Your Vision in the Digital Era.
+            Empowering People, Elevating Performance.
           </motion.h1>
           <motion.h1
             initial={{ opacity: 0, x: -100 }}
@@ -40,7 +40,15 @@ export function HeroSection() {
             transition={{ duration: 1.0, ease: "backOut", delay: 1.4 }}
             className="lg:text-4xl text-2xl"
           >
-            Fueling Your Vision in the Digital Era.
+            Driving Digital Success, Amplifying Your Reach.
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.2, ease: "backOut", delay: 1.6 }}
+            className="lg:text-4xl text-2xl"
+          >
+            Innovative Solutions, Infinite Possibilities.
           </motion.h1>
         </div>
         <div className="flex self-start items-center  gap-x-10 flex-row">
@@ -48,7 +56,7 @@ export function HeroSection() {
             <motion.p
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 1.0 }}
+              transition={{ duration: 1.4, ease: "easeOut", delay: 1.2 }}
             >
               <span className="lowercase">n</span>Xtribe is a premier provider
               of tailored HR, Training, and Digital Marketing Success solutions,
@@ -64,7 +72,7 @@ export function HeroSection() {
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 1.2 }}
+            transition={{ duration: 1.4, ease: "easeOut", delay: 1.6 }}
             className="flex justify-center items-center lg:flex-row flex-col gap-y-6 lg:gap-x-12 absolute lg:right-10 right-24 lg:mt-40 mt-[480px]"
           >
             <button className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min">

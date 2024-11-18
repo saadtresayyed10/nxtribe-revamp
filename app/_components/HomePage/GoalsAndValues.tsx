@@ -29,7 +29,7 @@ const GoalsAndValues = () => {
           hidden: { opacity: 0, y: 10 },
         }}
         transition={{ duration: 0.4, ease: "backOut", delay: 0.6 }}
-        className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize"
+        className="lg:mt-10 lg:mb-4 dark:text-white font-unbounded lg:text-5xl text-2xl font-semibold text-center capitalize"
       >
         Our Goals and Values
       </motion.h1>

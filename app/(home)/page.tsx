@@ -18,7 +18,7 @@ const HomePage = () => {
       <Flipwords />
       <CarouselImages />
       <div>
-        <h1 className="lg:my-10 dark:text-white font-unbounded lg:text-4xl text-2xl font-semibold text-center capitalize">
+        <h1 className="lg:mt-10 lg:mb-20 dark:text-white font-unbounded lg:text-5xl text-2xl font-semibold text-center capitalize">
           Services we offer
         </h1>
         <Services />
