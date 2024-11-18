@@ -2,6 +2,7 @@ import { CarouselImages } from "../_components/HomePage/CarouselImages";
 import { Flipwords } from "../_components/HomePage/Flipwords";
 import GoalsAndValues from "../_components/HomePage/GoalsAndValues";
 import { InfiniteLogoMarquee } from "../_components/HomePage/InfiniteLogoMaquee";
+import RandomPopUp from "../_components/HomePage/RandomPopUp";
 import { Services } from "../_components/HomePage/Services";
 import { HeroSection } from "../_components/HomePage/SparklesBg";
 import { Testimonials } from "../_components/HomePage/Testimonials";
@@ -12,6 +13,7 @@ const HomePage = () => {
     <div className="flex flex-col justify-center items-center w-full min-h-screen overflow-x-hidden">
       <HeroSection />
       <InfiniteLogoMarquee />
+      <RandomPopUp />
       <GoalsAndValues />
       <Flipwords />
       <CarouselImages />
