@@ -39,7 +39,7 @@ export default function RandomPopUp() {
     >
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
-          Schedule a Call
+          Book a Session
         </h2>
         <button
           className="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-400"

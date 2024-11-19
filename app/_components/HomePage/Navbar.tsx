@@ -52,8 +52,8 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="About">
             <div className="flex flex-col space-y-4 text-sm p-6">
               <HoveredLink href="/about/our-purpose">Our Purpose</HoveredLink>
-              <HoveredLink href="/about/why-us">Why Us?</HoveredLink>
-              <HoveredLink href="/about/blog">Blog</HoveredLink>
+              <HoveredLink href="/about/founder">Founder</HoveredLink>
+              <HoveredLink href="https://blog.nxtribe.com/">Blog</HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="What We Offer">
@@ -77,8 +77,8 @@ function Navbar({ className }: { className?: string }) {
                 description="Innovative campaigns maximizing online brand reach."
               />
               <ProductItem
-                title="Employee Wellness"
-                href="/whatweoffer/employee-wellness"
+                title="IT & ITES"
+                href="/whatweoffer/it"
                 src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
                 description="Holistic programs enhancing employee health, productivity."
               />

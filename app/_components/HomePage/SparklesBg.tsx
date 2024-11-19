@@ -4,7 +4,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export function HeroSection() {
   return (
-    <div className="lg:h-[32rem] h-[55rem] relative w-full bg-black flex flex-col items-center justify-center gap-y-6 overflow-hidden">
+    <div className="lg:h-[32rem] h-[58rem] relative w-full bg-black flex flex-col items-center justify-center gap-y-6 overflow-hidden">
       <div className="w-full absolute inset-0">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -16,7 +16,7 @@ export function HeroSection() {
           particleColor="#A83DF1"
         />
       </div>
-      <div className="flex justify-center items-center flex-col gap-y-8 text-white font-unbounded font-medium capitalize">
+      <div className="flex justify-center items-center flex-col gap-y-8 text-white font-unbounded font-medium capitalize mt-4">
         <div className="self-start pl-4 lg:pl-16 flex flex-col gap-y-3">
           <motion.h1
             initial={{ opacity: 0, x: -100 }}

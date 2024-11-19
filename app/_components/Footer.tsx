@@ -9,7 +9,7 @@ import {
   IconBrandX,
   IconHome,
   IconBrandFacebook,
-  IconBrandSpotify,
+  IconPhoneCall,
 } from "@tabler/icons-react";
 
 export function Footer() {
@@ -44,9 +44,9 @@ export function Footer() {
       href: "/",
     },
     {
-      title: "Spotify",
+      title: "Phone",
       icon: (
-        <IconBrandSpotify className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconPhoneCall className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
