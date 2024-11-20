@@ -30,12 +30,12 @@ export function Form() {
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="info@nxtribe.com" type="email" />
-        </LabelInputContainer>
-        <LabelInputContainer className="mb-4">
-          <Label htmlFor="contactNo">Phone Number</Label>
-          <Input id="contactNo" placeholder="(+91) 911-281-4584" type="text" />
+          <Label htmlFor="contactNo">Phone Number or Email Address</Label>
+          <Input
+            id="contactNo"
+            placeholder="Type Email or Contact Number"
+            type="text"
+          />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="issue">Describe Your Issue</Label>
