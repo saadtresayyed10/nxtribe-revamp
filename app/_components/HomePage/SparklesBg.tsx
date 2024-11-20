@@ -28,30 +28,6 @@ export function HeroSection() {
             Empowering People, Amplifying Reach, Unlocking Potential, and
             Delivering Infinite Solutions.
           </motion.h1>
-          {/* <motion.h1
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "backOut", delay: 1.2 }}
-            className="lg:text-4xl text-2xl"
-          >
-            Empowering People, Elevating Performance.
-          </motion.h1>
-          <motion.h1
-            initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.0, ease: "backOut", delay: 1.4 }}
-            className="lg:text-4xl text-2xl"
-          >
-            Driving Digital Success, Amplifying Your Reach.
-          </motion.h1>
-          <motion.h1
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.2, ease: "backOut", delay: 1.6 }}
-            className="lg:text-4xl text-2xl"
-          >
-            Innovative Solutions, Infinite Possibilities.
-          </motion.h1> */}
         </div>
         <div className="flex self-start items-center  gap-x-10 flex-row">
           <div className="lg:px-16 px-8 font-circular lg:text-lg text-base text-muted-foreground lg:mt-6 mt-3 lg:w-[60%]">
