@@ -18,13 +18,13 @@ const PuposePage = () => {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
-          <div className="text-3xl md:text-7xl font-semibold dark:text-white text-center lg:mt-20">
+          <div className="text-3xl lg:text-7xl font-semibold dark:text-white text-center mt-20">
             Empowering Growth, Inspiring Excellence, and Transforming
             Possibilities
           </div>
-          <div className="flex justify-center items-center flex-col gap-y-6 font-extralight text-base md:text-4xl dark:text-neutral-200 py-4 text-center lg:w-[80%]">
+          <div className="flex justify-center items-center flex-col gap-y-6 font-extralight text-xl lg:text-4xl dark:text-neutral-200 py-4 text-center lg:w-[80%]">
             <h1>Our Purpose</h1>
-            <p className="text-lg">
+            <p className="lg:text-lg text-base">
               At nXtribe, our purpose is to harness the power of{" "}
               <span className="dark:text-purple-500 text-purple-700 font-semibold">
                 IT & ITES

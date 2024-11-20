@@ -4,10 +4,10 @@ import { useId } from "react";
 export function FeatureCards() {
   return (
     <div className="py-20 lg:p-10 font-circular">
-      <h1 className="lg:my-6 dark:text-white lg:text-5xl text-2xl font-semibold text-center capitalize lg:mb-10">
+      <h1 className="my-6 dark:text-white lg:text-5xl text-3xl font-semibold text-center capitalize lg:mb-10">
         IT & ITES Services
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8 md:gap-2 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8 md:gap-2 gap-2 max-w-7xl mx-auto lg:p-0 p-4">
         {grid.map((feature) => (
           <div
             key={feature.title}

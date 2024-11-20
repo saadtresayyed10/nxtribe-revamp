@@ -14,7 +14,7 @@ export function LampBg() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-black to-black py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl font-circular"
+        className="lg:mt-8 -mt-20 bg-gradient-to-br lg:from-black from-white to-white lg:to-black py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl font-circular"
       >
         HR & <br /> CHRO
       </motion.h1>

@@ -16,15 +16,15 @@ const FounderPage = () => {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="relative flex flex-col gap-4 items-center justify-center px-4 lg:my-20"
+          className="relative flex flex-col gap-4 items-center justify-center px-4 my-20"
         >
-          <div className="text-3xl md:text-7xl font-semibold dark:text-white text-center">
+          <div className="text-3xl lg:text-7xl font-semibold dark:text-white text-center">
             Championing People Success, Transforming Cultures, and Leading with
             Purpose
           </div>
-          <div className="flex justify-center items-center flex-col gap-y-1 font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
+          <div className="flex justify-center items-center flex-col gap-y-1 font-extralight text-xl lg:text-4xl dark:text-neutral-200 py-4">
             <h1>Mr. Faisal Sayed</h1>
-            <p className="text-lg">Business & Leadership Coach</p>
+            <p className="lg:text-lg text-base">Business & Leadership Coach</p>
           </div>
           <Link
             href="/portfolio.pdf"

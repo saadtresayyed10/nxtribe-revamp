@@ -23,7 +23,7 @@ export function HeroSection() {
             initial={{ opacity: 0, x: -100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: "backOut", delay: 0.8 }}
-            className="lg:text-6xl text-2xl"
+            className="lg:text-6xl text-3xl"
           >
             Empowering People, Amplifying Reach, Unlocking Potential, and
             Delivering Infinite Solutions.
@@ -86,7 +86,7 @@ export function HeroSection() {
             </Link>
             <Link
               href="/contact"
-              className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md w-full"
+              className="lg:px-10 px-12 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md lg:w-full"
             >
               Need Help
             </Link>

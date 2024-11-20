@@ -19,7 +19,7 @@ export function TypeWriting() {
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem] font-circular">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+      <p className="text-neutral-600 dark:text-neutral-200 text-3xl text-center sm:text-base lg:p-0 p-3">
         The road to digital success starts from here
       </p>
       <TypewriterEffectSmooth words={words} />

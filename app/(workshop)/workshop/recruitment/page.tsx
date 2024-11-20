@@ -21,9 +21,9 @@ const RecruitmentPage = () => {
   };
 
   return (
-    <div className="h-[40rem] w-full rounded-md dark:bg-black bg-white relative flex flex-col items-center justify-center antialiased font-circular lg:my-32">
-      <div className="max-w-2xl mx-auto p-4 flex justify-center items-center flex-col lg:gap-y-6 text-center">
-        <h1 className="relative z-10 text-lg lg:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-purple-800 to-black dark:to-white  text-center font-sans font-bold">
+    <div className="h-[40rem] w-full rounded-md dark:bg-black bg-white relative flex flex-col items-center justify-center antialiased font-circular my-32">
+      <div className="max-w-2xl mx-auto p-4 flex justify-center items-center flex-col gap-y-6 text-center">
+        <h1 className="relative z-10 text-3xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-purple-800 to-black dark:to-white  text-center font-sans font-bold">
           Recruitment
         </h1>
         <p></p>
