@@ -3,7 +3,7 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimeLine() {
   const data = [
     {
-      title: "Join",
+      title: "Connect",
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-xl font-normal mb-8">
@@ -15,7 +15,7 @@ export function TimeLine() {
       ),
     },
     {
-      title: "Connect",
+      title: "Collaborate",
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-xl font-normal mb-8 capitalize">
@@ -37,7 +37,7 @@ export function TimeLine() {
       ),
     },
     {
-      title: "Grow",
+      title: "World-Class Quality",
       content: (
         <div className="font-circular">
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-xl font-normal mb-8">
@@ -54,7 +54,7 @@ export function TimeLine() {
           <p className="text-neutral-800 dark:text-neutral-200 lg:text-xl font-normal mb-8">
             At nXtribe, we prioritize the needs and goals of our clients above
             all else, striving to exceed expectations and build lasting
-            partnerships based on trust, transparency, and mutual success..
+            partnerships based on trust, transparency, and mutual success.
           </p>
         </div>
       ),
