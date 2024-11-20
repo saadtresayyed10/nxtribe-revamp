@@ -1,5 +1,6 @@
 "use client";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
+import Link from "next/link";
 export function TypeWriting() {
   const words = [
     {
@@ -24,10 +25,15 @@ export function TypeWriting() {
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
         <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-          Learn More
+          <Link
+            href="https://www.linkedin.com/in/nxtribe-making-way-for-%E2%80%9Csuccess%E2%80%9D-706921337/"
+            target="_blank"
+          >
+            Learn More
+          </Link>
         </button>
         <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-          Contact
+          <Link href="/contact">Contact</Link>
         </button>
       </div>
     </div>

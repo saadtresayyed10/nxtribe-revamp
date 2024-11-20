@@ -28,9 +28,9 @@ export function FeaturesBento() {
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
     {
-      title: "Watch our AI on YouTube",
+      title: "Watch AI video on YouTube",
       description:
-        "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+        "Whether its you or John Doe, you can get to know about our product on YouTube",
       skeleton: <SkeletonThree />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
@@ -52,7 +52,8 @@ export function FeaturesBento() {
 
         <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
           From Image generation to video generation, Everything AI has APIs for
-          literally everything. It can even create this website copy for you.
+          literally everything. It can even create an app to automate this
+          website&apos;s flow for you.
         </p>
       </div>
 
@@ -135,7 +136,7 @@ export const SkeletonOne = () => {
 export const SkeletonThree = () => {
   return (
     <Link
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+      href="https://www.youtube.com/watch?v=anmuklFtu8U"
       target="__blank"
       className="relative flex gap-10  h-full group/image"
     >

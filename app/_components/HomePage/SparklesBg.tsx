@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { SparklesCore } from "@/components/ui/sparkles";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -76,12 +77,19 @@ export function HeroSection() {
             transition={{ duration: 1.4, ease: "easeOut", delay: 1.6 }}
             className="flex justify-center items-center lg:flex-row flex-col gap-y-6 lg:gap-x-12 absolute lg:right-10 right-24 lg:mt-40 mt-[480px]"
           >
-            <button className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min">
+            <Link
+              href="https://blog.nxtribe.com/"
+              target="_blank"
+              className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min"
+            >
               Blog
-            </button>
-            <button className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md w-full">
+            </Link>
+            <Link
+              href="/contact"
+              className="lg:px-10 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md w-full"
+            >
               Need Help
-            </button>
+            </Link>
           </motion.div>
         </div>
       </div>

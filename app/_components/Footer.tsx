@@ -3,13 +3,13 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandGithub,
+  IconBrandWhatsapp,
   IconBrandYoutube,
   IconBrandInstagram,
   IconBrandX,
   IconHome,
-  IconBrandFacebook,
   IconPhoneCall,
+  IconBrandLinkedin,
 } from "@tabler/icons-react";
 
 export function Footer() {
@@ -19,22 +19,22 @@ export function Footer() {
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/nxt.tribe/",
     },
     {
       title: "Youtube",
       icon: (
         <IconBrandYoutube className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.youtube.com/@nXtribe",
     },
 
     {
-      title: "Facebook",
+      title: "LinkedIn",
       icon: (
-        <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/nxtribe-making-way-for-%E2%80%9Csuccess%E2%80%9D-706921337/",
     },
     {
       title: "Home",
@@ -48,7 +48,7 @@ export function Footer() {
       icon: (
         <IconPhoneCall className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "tel:+919112814584",
     },
 
     {
@@ -56,14 +56,14 @@ export function Footer() {
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/NxtTribe",
     },
     {
-      title: "GitHub",
+      title: "Whatsapp",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://wa.me/919112814584",
     },
   ];
   return (

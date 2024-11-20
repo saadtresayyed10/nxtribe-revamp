@@ -29,44 +29,44 @@ export function FeatureCards() {
 
 const grid = [
   {
-    title: "HIPAA and SOC2 Compliant",
+    title: "Cloud Solutions",
     description:
-      "Our applications are HIPAA and SOC2 compliant, your data is safe with us, always.",
+      "Scalable, secure, and flexible services for data storage and processing.",
   },
   {
-    title: "Automated Social Media Posting",
+    title: "AI Solutions",
     description:
-      "Schedule and automate your social media posts across multiple platforms to save time and maintain a consistent online presence.",
+      "Intelligent systems transforming processes through automation and predictive insights.",
   },
   {
-    title: "Advanced Analytics",
+    title: "Contact Center Solutions",
     description:
-      "Gain insights into your social media performance with detailed analytics and reporting tools to measure engagement and ROI.",
+      "Omnichannel customer support enhancing communication and service efficiency.",
   },
   {
-    title: "Content Calendar",
+    title: "Web Development",
     description:
-      "Plan and organize your social media content with an intuitive calendar view, ensuring you never miss a post.",
+      " Custom, responsive websites delivering optimized user experiences and functionality.",
   },
   {
-    title: "Audience Targeting",
+    title: "App Development",
     description:
-      "Reach the right audience with advanced targeting options, including demographics, interests, and behaviors.",
+      "Mobile and desktop applications tailored for seamless user interaction.",
   },
   {
-    title: "Social Listening",
+    title: "RPA",
     description:
-      "Monitor social media conversations and trends to stay informed about what your audience is saying and respond in real-time.",
+      "Automated workflows increasing efficiency by minimizing repetitive human tasks.",
   },
   {
-    title: "Customizable Templates",
+    title: "Digitalizations strategy",
     description:
-      "Create stunning social media posts with our customizable templates, designed to fit your brand's unique style and voice.",
+      "Transforming analog processes into automated, digital-driven operations and services.",
   },
   {
-    title: "Collaboration Tools",
+    title: "CRM",
     description:
-      "Work seamlessly with your team using our collaboration tools, allowing you to assign tasks, share drafts, and provide feedback in real-time.",
+      "Centralized customer relationship management for improved engagement and retention.",
   },
 ];
 
