@@ -37,7 +37,7 @@ export function HeroSection() {
               transition={{ duration: 1.4, ease: "easeOut", delay: 1.2 }}
             >
               <span className="lowercase">n</span>Xtribe is a premier provider
-              of tailored HR, Training, and Digital Marketing Success solutions,
+              of tailored HR, Training, and Digital Marketing solutions,
               empowering diverse businesses to excel. Backed by a team of
               seasoned professionals, we deliver exceptional services with
               unmatched Speed, Clarity, and Confidence. Our strategic alliances

@@ -33,7 +33,7 @@ export function CarouselImages() {
         transition={{ duration: 0.4, ease: "easeOut", delay: 0.6 }}
         className="lg:mt-10 lg:mb-4 dark:text-white text-black font-unbounded lg:text-5xl text-3xl font-semibold capitalize lg:ml-10 ml-6"
       >
-        Actually Why <span className="lowercase">n</span>
+        Why <span className="lowercase">n</span>
         <span className="text-purple-700 dark:text-purple-500 lg:text-5xl text-3xl">
           X
         </span>

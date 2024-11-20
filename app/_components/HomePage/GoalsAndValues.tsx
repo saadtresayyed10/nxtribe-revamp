@@ -45,7 +45,7 @@ const GoalsAndValues = () => {
         >
           Our{" "}
           <span className="text-purple-700 dark:text-purple-500">
-            main objective
+            objective
           </span>{" "}
           is to empower your organization to attain exceptional levels of
           operational efficiency, superior quality standards, and elevated

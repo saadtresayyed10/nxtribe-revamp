@@ -116,7 +116,7 @@ const Logo = () => {
         tribe
       </h1>
       <p className="font-circular text-black dark:text-white font-semibold text-xs uppercase">
-        Making way of success
+        Making way for success
       </p>
     </Link>
   );
