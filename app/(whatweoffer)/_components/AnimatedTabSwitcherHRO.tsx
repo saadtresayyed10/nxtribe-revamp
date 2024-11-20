@@ -2,33 +2,6 @@
 
 import { Tabs } from "@/components/ui/tabs";
 
-const Contents = [
-  {
-    title: ":",
-    desc: "",
-  },
-  {
-    title: "Talent Sourcing:",
-    desc: "Our approach to talent sourcing is about uncovering and engaging the highest-caliber candidates who fit your specific needs, both now and for future growth. Leveraging cutting-edge tools, networks, and deep industry expertise, we proactively identify top-tier talent. We prioritize nurturing relationships, reaching passive candidates, and tapping into diverse pools of expertise often overlooked. By combining data analytics, personal engagement, and strategic mapping, our sourcing practices ensure you gain access to unique and qualified talent who align with your organization's mission, culture, and objectives.",
-  },
-  {
-    title: "():",
-    desc: "",
-  },
-  {
-    title: ":",
-    desc: "",
-  },
-  {
-    title: " & Onboarding:",
-    desc: "",
-  },
-  {
-    title: ":",
-    desc: "",
-  },
-];
-
 export function AnimatedTabsSwitcherHRO() {
   const tabs = [
     {

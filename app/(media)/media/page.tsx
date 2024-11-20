@@ -34,8 +34,9 @@ const MediaPage = () => {
         transition={{ duration: 1.0, ease: "easeOut", delay: 1.2 }}
         className="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:gap-10 lg:mt-10 p-6 "
       >
-        {youtube.map((video) => (
+        {youtube.map((video, idx) => (
           <VideoPlayer
+            key={idx}
             darkImage={video.image}
             lightImage={video.image}
             darkLink={video.link}

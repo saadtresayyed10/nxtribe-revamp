@@ -2,7 +2,6 @@
 
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const PuposePage = () => {
   return (
@@ -66,7 +65,7 @@ const PuposePage = () => {
               <span className="dark:text-purple-500 text-purple-700 font-semibold">
                 Digital Marketing
               </span>
-              , nXtribe is dedicated to amplifying our clients' reach and
+              , nXtribe is dedicated to amplifying our client&apos;s reach and
               driving measurable results. We craft data-driven strategies that
               resonate with target audiences and deliver impactful, lasting
               connections. By combining creativity with analytics, we help

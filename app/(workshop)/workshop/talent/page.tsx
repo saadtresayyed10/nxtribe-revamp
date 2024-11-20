@@ -35,9 +35,9 @@ const TalentPage = () => {
           services are designed to connect organizations with top-tier talent
           that drives business success. We go beyond traditional hiring
           practices, leveraging a strategic and data-driven approach to identify
-          candidates who align with our clients' unique goals and values. By
-          focusing on both skill and cultural fit, we ensure that every new hire
-          not only excels in their role but also contributes to a thriving
+          candidates who align with our client&apos;s unique goals and values.
+          By focusing on both skill and cultural fit, we ensure that every new
+          hire not only excels in their role but also contributes to a thriving
           workplace culture.
         </p>
         <p className="text-neutral-500 dark:text-neutral-300 max-w-lg mx-auto my-2 text-sm lg:text-lg text-center relative z-10">

@@ -1,13 +1,13 @@
 import { cn } from "@/lib/utils";
 
 interface MarqueeProps {
-  className?: string;
-  reverse?: boolean;
-  pauseOnHover?: boolean;
-  children?: React.ReactNode;
-  vertical?: boolean;
-  repeat?: number;
-  [key: string]: any;
+  className?: string; // Optional string for custom classes
+  reverse?: boolean; // Direction of animation (reverse if true)
+  pauseOnHover?: boolean; // Pause animation on hover
+  children?: React.ReactNode; // Content inside the marquee
+  vertical?: boolean; // Determines if the marquee scrolls vertically
+  repeat?: number; // Number of repetitions
+  [key: string]: string | number | boolean | undefined | React.ReactNode; // Additional props with flexible types
 }
 
 export default function Marquee({
@@ -28,7 +28,7 @@ export default function Marquee({
           "flex-row": !vertical,
           "flex-col": vertical,
         },
-        className,
+        className
       )}
     >
       {Array(repeat)

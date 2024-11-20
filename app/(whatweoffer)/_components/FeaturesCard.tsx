@@ -27,7 +27,12 @@ export function FeatureCards() {
   );
 }
 
-const grid = [
+interface Feature {
+  title: string;
+  description: string;
+}
+
+const grid: Feature[] = [
   {
     title: "Cloud Solutions",
     description:
@@ -46,7 +51,7 @@ const grid = [
   {
     title: "Web Development",
     description:
-      " Custom, responsive websites delivering optimized user experiences and functionality.",
+      "Custom, responsive websites delivering optimized user experiences and functionality.",
   },
   {
     title: "App Development",
@@ -70,13 +75,12 @@ const grid = [
   },
 ];
 
-export const Grid = ({
-  pattern,
-  size,
-}: {
+interface GridProps {
   pattern?: number[][];
   size?: number;
-}) => {
+}
+
+export const Grid: React.FC<GridProps> = ({ pattern, size }) => {
   const p = pattern ?? [
     [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
     [Math.floor(Math.random() * 4) + 7, Math.floor(Math.random() * 6) + 1],
@@ -100,7 +104,23 @@ export const Grid = ({
   );
 };
 
-export function GridPattern({ width, height, x, y, squares, ...props }: any) {
+interface GridPatternProps {
+  width: number;
+  height: number;
+  x: string;
+  y: string;
+  squares?: number[][];
+  className?: string;
+}
+
+export const GridPattern: React.FC<GridPatternProps> = ({
+  width,
+  height,
+  x,
+  y,
+  squares,
+  ...props
+}) => {
   const patternId = useId();
 
   return (
@@ -125,7 +145,7 @@ export function GridPattern({ width, height, x, y, squares, ...props }: any) {
       />
       {squares && (
         <svg x={x} y={y} className="overflow-visible">
-          {squares.map(([x, y]: any) => (
+          {squares.map(([x, y]) => (
             <rect
               strokeWidth="0"
               key={`${x}-${y}`}
@@ -139,4 +159,4 @@ export function GridPattern({ width, height, x, y, squares, ...props }: any) {
       )}
     </svg>
   );
-}
+};
