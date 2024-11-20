@@ -8,12 +8,12 @@ import Link from "next/link";
 
 const youtube = [
   {
-    link: "https://www.youtube.com/embed/4l7nEEajb3k?si=u3gCFROuJybeY6m3",
-    image: "/images/thumbnail/thumbnail1.jpg",
+    link: "https://www.youtube.com/embed/SDKCWNWcsKo?si=A2nT4kfAUy17wnVQ",
+    image: "/digi-pointer.jpg",
   },
   {
-    link: "https://www.youtube.com/embed/wu-y-vFBxGk?si=NVrI3XbUWNS0xVAN",
-    image: "/images/thumbnail/thumbnail2.jpg",
+    link: "https://www.youtube.com/embed/ps09Fv_BCrw?si=3I4U308dGIqB0uMV",
+    image: "/hr-pointer.jpg",
   },
 ];
 
