@@ -15,27 +15,27 @@ export function Form() {
         Welcome to nXtribe
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        We are here to help you out, let us know...
+        Hurry! Book a session right now to get an amazing offer.
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Saad" type="text" />
+            <Input id="firstname" placeholder="Faisal" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Sayyed" type="text" />
+            <Input id="lastname" placeholder="Sayed" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="saadsyed950@gmail.com" type="email" />
+          <Input id="email" placeholder="info@nxtribe.com" type="email" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="contactNo">Phone Number</Label>
-          <Input id="contactNo" placeholder="(+91) 111-222-333" type="text" />
+          <Input id="contactNo" placeholder="(+91) 911-281-4584" type="text" />
         </LabelInputContainer>
 
         <button

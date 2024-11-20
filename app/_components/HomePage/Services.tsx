@@ -13,15 +13,15 @@ import {
 export function Services() {
   const features = [
     {
-      title: "Talent Acquisition & Recruitment",
+      title: "Digital Marketing",
       description:
-        "Attracting top talent, optimizing hiring, and building exceptional teams.",
+        "Leveraging strategies to enhance online visibility, engagement, and conversions.",
       icon: <IconViewfinder />,
     },
     {
-      title: "Organizational Development",
+      title: "IT & ITES",
       description:
-        "Building culture, managing change, maximizing performance, driving goal success.",
+        "Implementing technology solutions to drive efficiency, innovation, and business growth.",
       icon: <IconTerminal2 />,
     },
     {

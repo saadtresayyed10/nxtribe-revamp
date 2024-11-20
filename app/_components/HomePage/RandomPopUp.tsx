@@ -3,6 +3,7 @@
 import { X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Form } from "@/app/(contact)/contact/_components/Form";
 
 export default function RandomPopUp() {
   const [showPopup, setShowPopup] = useState(false);
@@ -10,7 +11,7 @@ export default function RandomPopUp() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (!isClosed && window.scrollY > 100) {
+      if (!isClosed && window.scrollY > 300) {
         // Only show if user hasn't closed it
         setShowPopup(true);
       }
@@ -35,12 +36,9 @@ export default function RandomPopUp() {
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.4, ease: "circOut", delay: 0.4 }}
-      className="font-circular fixed bottom-4 right-4 z-50 w-full max-w-xs bg-gradient-to-br from-purple-200 to-white  p-4 shadow-lg rounded-lg border dark:border-gray-300 border-black dark:bg-gradient-to-br dark:from-purple-900 dark:to-black"
+      className="font-circular fixed bottom-4 right-4 z-50 w-full max-w-xs bg-gradient-to-br from-white to-white p-2 shadow-lg rounded-lg border dark:border-gray-300 border-black dark:bg-gradient-to-br dark:from-black dark:to-black"
     >
       <div className="flex justify-between items-center">
-        <h2 className="text-lg font-semibold text-gray-800 dark:text-white">
-          Book a Session
-        </h2>
         <button
           className="text-gray-500 hover:text-gray-700 dark:text-gray-300 dark:hover:text-gray-400"
           onClick={handleClose}
@@ -49,12 +47,7 @@ export default function RandomPopUp() {
           <X className="w-4 h-4" />
         </button>
       </div>
-      <p className="mt-2 text-gray-800 dark:text-gray-200">
-        Call us at:{" "}
-        <span className="font-semibold hover:underline transition underline-offset-4">
-          +91 911-281-4584
-        </span>
-      </p>
+      <Form />
     </motion.div>
   );
 }

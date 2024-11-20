@@ -1,6 +1,5 @@
 "use client";
 
-// import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
 import { Form } from "./_components/Form";
 
 const ContactPage = () => {
