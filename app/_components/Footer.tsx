@@ -113,7 +113,7 @@ export const FooterPhone = () => {
           <IconPhoneCall />
         </Link>
       </div>
-      <div className="flex justify-center items-center flex-col lg:gap-y-2 font-circular text-xs font-light text-muted-foreground">
+      <div className="flex lg:hidden justify-center items-center flex-col lg:gap-y-2 font-circular text-xs font-light text-muted-foreground">
         <h4>
           <span className="dark:text-purple-500 text-purple-700">
             Developer

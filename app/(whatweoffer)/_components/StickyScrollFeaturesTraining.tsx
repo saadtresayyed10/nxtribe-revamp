@@ -44,6 +44,13 @@ const content = [
       <div className="h-full w-full  flex items-center justify-center text-white"></div>
     ),
   },
+  {
+    title: "And More...",
+    description: "Contact us today.",
+    content: (
+      <div className="h-full w-full  flex items-center justify-center text-white"></div>
+    ),
+  },
 ];
 export function StickyScrollFeaturesTraining() {
   return (
