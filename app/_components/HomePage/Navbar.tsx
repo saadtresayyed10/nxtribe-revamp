@@ -12,6 +12,7 @@ import Link from "next/link";
 import { BorderButton } from "./BorderButton";
 import { ThemeToggle } from "../ThemeToggle";
 import { motion } from "framer-motion";
+import { MobileMenu } from "./MobileNavbarMenu";
 
 export function NavbarLG() {
   return (
@@ -118,5 +119,17 @@ const Logo = () => {
         Making way of success
       </p>
     </Link>
+  );
+};
+
+export const NavbarMobile = () => {
+  return (
+    <div className="lg:hidden flex justify-between items-center px-6 py-4 dark:bg-black bg-white">
+      <div className="flex justify-center items-center gap-x-4">
+        <MobileMenu />
+        <Logo />
+      </div>
+      <ThemeToggle />
+    </div>
   );
 };
