@@ -1,5 +1,5 @@
-import { AnimatedTabsSwitcher } from "../../_components/AnimatedTabsSwitcher";
-import { TypeWriting } from "../../_components/TypeWriting";
+import { AnimatedTabsSwitcher } from "../_components/AnimatedTabsSwitcher";
+import { TypeWriting } from "../_components/TypeWriting";
 
 const DigitalMarketingPage = () => {
   return (

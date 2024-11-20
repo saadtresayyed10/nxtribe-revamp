@@ -3,7 +3,7 @@
 import { X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Form } from "@/app/(contact)/contact/_components/Form";
+import { Form } from "@/app/contact/_components/Form";
 
 export default function RandomPopUp() {
   const [showPopup, setShowPopup] = useState(false);

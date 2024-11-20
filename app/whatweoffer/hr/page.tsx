@@ -1,5 +1,5 @@
-import { AnimatedTabsSwitcherHRO } from "../../_components/AnimatedTabSwitcherHRO";
-import { LampBg } from "../../_components/LampBg";
+import { AnimatedTabsSwitcherHRO } from "../_components/AnimatedTabSwitcherHRO";
+import { LampBg } from "../_components/LampBg";
 
 const HRPage = () => {
   return (
