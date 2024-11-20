@@ -21,11 +21,11 @@ export function Form() {
       <form className="my-8" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
-            <Label htmlFor="firstname">First & Last name</Label>
+            <Label htmlFor="firstname">First name</Label>
             <Input id="firstname" placeholder="Faisal" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
-            <Label htmlFor="lastname">Describe Your Issue</Label>
+            <Label htmlFor="lastname">Last Name</Label>
             <Input id="lastname" placeholder="Sayed" type="text" />
           </LabelInputContainer>
         </div>
@@ -36,6 +36,14 @@ export function Form() {
         <LabelInputContainer className="mb-4">
           <Label htmlFor="contactNo">Phone Number</Label>
           <Input id="contactNo" placeholder="(+91) 911-281-4584" type="text" />
+        </LabelInputContainer>
+        <LabelInputContainer className="mb-4">
+          <Label htmlFor="issue">Describe Your Issue</Label>
+          <Input
+            id="issue"
+            placeholder="Feel free to ask anything"
+            type="text"
+          />
         </LabelInputContainer>
 
         <button
