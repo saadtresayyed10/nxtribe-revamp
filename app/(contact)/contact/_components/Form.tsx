@@ -24,6 +24,10 @@ export function Form() {
             <Label htmlFor="firstname">First & Last name</Label>
             <Input id="firstname" placeholder="Faisal" type="text" />
           </LabelInputContainer>
+          <LabelInputContainer>
+            <Label htmlFor="lastname">Describe Your Issue</Label>
+            <Input id="lastname" placeholder="Sayed" type="text" />
+          </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
@@ -32,10 +36,6 @@ export function Form() {
         <LabelInputContainer className="mb-4">
           <Label htmlFor="contactNo">Phone Number</Label>
           <Input id="contactNo" placeholder="(+91) 911-281-4584" type="text" />
-        </LabelInputContainer>
-        <LabelInputContainer>
-          <Label htmlFor="lastname">Describe Your Issue</Label>
-          <Input id="lastname" placeholder="Sayed" type="text" />
         </LabelInputContainer>
 
         <button

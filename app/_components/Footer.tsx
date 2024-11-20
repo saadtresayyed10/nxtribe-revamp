@@ -92,7 +92,7 @@ export function Footer() {
 
 export const FooterPhone = () => {
   return (
-    <div className="flex justify-center items-center flex-col gap-y-3 bg-white dark:bg-black font-circular dark:text-white text-black my-10">
+    <div className="flex lg:hidden justify-center items-center flex-col gap-y-3 bg-white dark:bg-black font-circular dark:text-white text-black my-10">
       <div className="flex justify-center items-center gap-x-6">
         <Link className="" href="https://www.instagram.com/nxt.tribe/">
           <IconBrandInstagram />
