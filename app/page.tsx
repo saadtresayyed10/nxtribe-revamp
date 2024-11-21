@@ -12,7 +12,6 @@ const HomePage = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full min-h-screen overflow-x-hidden">
       <HeroSection />
-      <InfiniteLogoMarquee />
       <RandomPopUp />
       <GoalsAndValues />
       <Flipwords />
@@ -24,6 +23,7 @@ const HomePage = () => {
         <Services />
       </div>
       <TimeLine />
+      <InfiniteLogoMarquee />
       <Testimonials />
     </div>
   );

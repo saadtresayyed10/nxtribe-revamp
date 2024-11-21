@@ -26,7 +26,7 @@ const MediaPage = () => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 1.0 }}
         className="my-10 dark:text-white font-unbounded lg:text-5xl text-3xl font-semibold text-center capitalize"
       >
-        Watch Our Videos
+        Watch Some Videos
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: -40 }}
@@ -46,7 +46,7 @@ const MediaPage = () => {
       </motion.div>
       <CoolMode>
         <Button className="font-circular">
-          <Link href="https://www.youtube.com/@Lifeskillify" target="_blank">
+          <Link href="https://www.youtube.com/@nXtribe" target="_blank">
             Subscribe
           </Link>
         </Button>

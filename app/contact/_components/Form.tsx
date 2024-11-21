@@ -21,29 +21,21 @@ export function Form() {
       <form className="my-8" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
-            <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Faisal" type="text" />
+            <Label htmlFor="fullname">Full name</Label>
+            <Input id="fullname" type="text" />
           </LabelInputContainer>
           <LabelInputContainer>
-            <Label htmlFor="lastname">Last Name</Label>
-            <Input id="lastname" placeholder="Sayed" type="text" />
+            <Label htmlFor="email">Email</Label>
+            <Input id="email" type="text" />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="contactNo">Phone Number or Email Address</Label>
-          <Input
-            id="contactNo"
-            placeholder="Type Email or Contact Number"
-            type="text"
-          />
+          <Label htmlFor="contactNo">Phone Number</Label>
+          <Input id="contactNo" type="text" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="issue">Describe Your Issue</Label>
-          <Input
-            id="issue"
-            placeholder="Feel free to ask anything"
-            type="text"
-          />
+          <Input id="issue" type="text" />
         </LabelInputContainer>
 
         <button
