@@ -55,7 +55,7 @@ export function FeaturesBento() {
           <br />
           Re-engineer your digital strategy or deploy CRM solutions.
           <br />
-          Cloud solutions tailor made, context center solutions just for you.
+          Cloud solutions tailor made, contact center solutions just for you.
         </p>
         <Link href="/contact">
           <BorderButton buttonName="Connect With Us" />
