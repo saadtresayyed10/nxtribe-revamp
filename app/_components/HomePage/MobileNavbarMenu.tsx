@@ -60,11 +60,9 @@ export const MobileMenu = () => {
               <AccordionTrigger>Workshop</AccordionTrigger>
               <AccordionContent onClick={closeSheet}>
                 <div className="flex justify-center items-start flex-col gap-y-2 p-6">
-                  <Link href="/workshop/talent">Talent Acquisition</Link>
-                  <Link href="/workshop/recruitment">Recruitment</Link>
-                  <Link href="/workshop/organizations">
-                    Organizations & Development
-                  </Link>
+                  <Link href="/workshop/workshop">Workshops</Link>
+                  <Link href="/workshop/training">Training</Link>
+                  <Link href="/workshop/webinar">Webinar</Link>
                 </div>
               </AccordionContent>
             </AccordionItem>
