@@ -60,7 +60,7 @@ function CardSpotlightComponent1() {
         Digital Strategy for Beginners
       </p>
       <div className="text-neutral-200 mt-4 relative z-20">
-        &lpar;Coming Soon&rpar;
+        Coming Soon
         <ul className="list-none  mt-2 flex justify-center items-start flex-col lg:text-sm">
           <Step title="Start Strong, Strategize Digitally" />
           <Step title="Master Basics, Build Online Success" />
@@ -83,7 +83,7 @@ function CardSpotlightComponent2() {
         AI Strategy for Business
       </p>
       <div className="text-neutral-200 mt-4 relative z-20">
-        &lpar;Coming Soon&rpar;
+        Coming Soon
         <ul className="list-none  mt-2 flex justify-center items-start flex-col lg:text-sm">
           <Step title="Innovate Business with AI" />
           <Step title="AI Solutions for Success" />
@@ -106,7 +106,7 @@ function CardSpotlightComponent3() {
         Business Consulting
       </p>
       <div className="text-neutral-200 mt-4 relative z-20">
-        &lpar;Coming Soon&rpar;
+        Coming Soon
         <ul className="list-none  mt-2 flex justify-center items-start flex-col lg:text-sm">
           <Step title="Lead Solutions, Shape Businesses" />
           <Step title="Consulting Skills for Impactful Change" />
