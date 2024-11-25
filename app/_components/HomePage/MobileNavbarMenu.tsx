@@ -39,7 +39,7 @@ export const MobileMenu = () => {
                 <div className="flex justify-center items-start flex-col gap-y-2 p-6">
                   <Link href="/about/our-purpose">Our Purpose</Link>
                   <Link href="/about/founder">Founder</Link>
-                  <Link href="https://blog.nxtribe.com/">Blog</Link>
+                  {/* <Link href="https://blog.nxtribe.com/">Blog</Link> */}
                 </div>
               </AccordionContent>
             </AccordionItem>

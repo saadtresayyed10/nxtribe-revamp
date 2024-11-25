@@ -54,11 +54,10 @@ export function HeroSection() {
             className="flex justify-center items-center lg:flex-row flex-col gap-y-6 lg:gap-x-12 absolute lg:right-10 right-24 lg:mt-40 mt-[480px]"
           >
             <Link
-              href="https://blog.nxtribe.com/"
-              target="_blank"
+              href="/about/founder"
               className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min"
             >
-              Blog
+              Founder
             </Link>
             <Link
               href="/contact"
