@@ -54,7 +54,9 @@ function Navbar({ className }: { className?: string }) {
             <div className="flex flex-col space-y-4 text-sm p-6">
               <HoveredLink href="/about/our-purpose">Our Purpose</HoveredLink>
               <HoveredLink href="/about/founder">Founder</HoveredLink>
-              {/* <HoveredLink href="https://blog.nxtribe.com/">Blog</HoveredLink> */}
+              <HoveredLink href="https://blog-nxtribe.vercel.app/">
+                Blog
+              </HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="What We Offer">

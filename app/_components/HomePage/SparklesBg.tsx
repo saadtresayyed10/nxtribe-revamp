@@ -54,16 +54,16 @@ export function HeroSection() {
             className="flex justify-center items-center lg:flex-row flex-col gap-y-6 lg:gap-x-12 absolute lg:right-10 right-24 lg:mt-40 mt-[480px]"
           >
             <Link
-              href="/about/founder"
+              href="https://blog-nxtribe.vercel.app/"
               className="lg:px-10 px-20 py-2 bg-purple-600 text-black text-base rounded-md w-full lg:w-min"
             >
-              Founder
+              Blog
             </Link>
             <Link
               href="/contact"
               className="lg:px-10 px-12 py-2 bg-neutral-700 text-muted-foreground text-base rounded-md lg:w-full"
             >
-              Need Help
+              Assist
             </Link>
           </motion.div>
         </div>

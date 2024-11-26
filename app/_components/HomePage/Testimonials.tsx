@@ -27,7 +27,7 @@ export function Testimonials() {
           hidden: { opacity: 0, y: 40 },
         }}
         transition={{ duration: 0.4, ease: "easeOut", delay: 0.6 }}
-        className="my-6 dark:text-white font-unbounded lg:text-5xl text-3xl font-semibold text-center capitalize"
+        className="my-10 dark:text-white font-unbounded lg:text-5xl text-3xl font-semibold text-center capitalize"
       >
         Testimonials
       </motion.h1>
