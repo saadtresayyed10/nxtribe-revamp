@@ -28,6 +28,9 @@ const nextConfig = {
       },
     ],
   },
+  output: "export",
+  trailingSlash: "true",
+  distDir: "build",
 };
 
 export default nextConfig;
