@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    unoptimized: true, // Required for `output: "export"`
     remotePatterns: [
       {
         protocol: "https",
@@ -29,7 +30,7 @@ const nextConfig = {
     ],
   },
   output: "export",
-  trailingSlash: "true",
+  trailingSlash: true,
   distDir: "build",
 };
 
